@@ -6,7 +6,7 @@ import MarkdownItFootnote from 'markdown-it-footnote'
 import MarkdownItMathjax3 from 'markdown-it-mathjax3'
 import { defineConfig } from 'vitepress'
 
-import { discordLink, githubRepoLink, siteDescription, siteName } from '../metadata'
+import { githubRepoLink, siteDescription, siteName } from '../metadata'
 import head from './head'
 
 const nolebase = presetMarkdownIt()
@@ -111,7 +111,6 @@ export default defineConfig({
         ],
         socialLinks: [
           { icon: 'github', link: githubRepoLink },
-          { icon: 'discord', link: discordLink },
         ],
         darkModeSwitchLabel: '切换主题',
         outline: { label: '页面大纲', level: 'deep' },
