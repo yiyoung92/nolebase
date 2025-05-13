@@ -7,8 +7,8 @@ titleTemplate: 记录回忆，知识和畅想的地方
 
 hero:
   name: g~Nj$3J2^
-  text: 记录回忆，知识和畅想的地方
-  tagline: 以 BeginnerParents 为名，读作 nole-base，取自意为「知识」的昆雅语 nólë 和意为「基础」的英文 base，即「知识库」
+  text: 记录美好回忆、分享育娃经验和资料的地方
+  tagline: 作为新手爸妈，分享从备孕开始到孕期生活、生产、育娃各阶段的经验和体会
   image:
     src: /logo.svg
     alt: Vitest

@@ -7,7 +7,7 @@ export const siteShortName = '新手爸妈'
 export const siteDescription = '记录回忆，知识和畅想的地方'
 
 /** 文档所在目录 */
-export const include = ['笔记', '生活']
+export const include = ['笔记',]
 
 /** Repo */
 export const githubRepoLink = 'https://github.com/nolebase/nolebase'
@@ -23,7 +23,7 @@ export const creators: Creator[] = [
   {
     name: '新手爸妈-大杨',
     avatar: '',
-    username: 'eason2young',
+    username: 'yiyoung92',
     title: '新手爸妈主播',
     desc: '新手爸爸，工程师',
     links: [

@@ -100,14 +100,13 @@ export default defineConfig({
     root: {
       lang: 'zh-CN',
       label: '中文',
-      dir: '/zh-CN',
-      link: '/zh-CN',
+      dir: '/notes',
+      link: '/notes',
       themeConfig: {
         nav: [
-          { text: '主页', link: '/zh-CN/' },
-          { text: '笔记', link: '/zh-CN/笔记/' },
-          { text: '编目 Catalog', link: '/zh-CN/编目 Catalog/' },
-          { text: '最近更新', link: '/zh-CN/toc' },
+          { text: '主页', link: '/' },
+          { text: '笔记', link: '/notes/' },
+          { text: '最近更新', link: '/notes/toc' },
         ],
         socialLinks: [
           { icon: 'github', link: githubRepoLink },
@@ -119,9 +118,8 @@ export default defineConfig({
           text: '编辑本页面',
         },
         sidebar: calculateSidebar([
-          { folderName: 'zh-CN/笔记', separate: true },
-          { folderName: 'zh-CN/编目 Catalog', separate: true },
-        ], 'zh-CN'),
+          { folderName: 'notes', separate: true },
+        ], 'notes'),
         footer: {
           message: '用 <span style="color: #e25555;">&#9829;</span> 撰写',
           copyright:

@@ -18,8 +18,8 @@ export default defineConfig(async () => {
         },
         markdownSection: {
           excludes: [
-            join('zh-CN', 'toc.md'),
-            join('zh-CN', 'index.md'),
+            join('notes', 'toc.md'),
+            join('notes', 'index.md'),
           ],
         },
       },
@@ -28,8 +28,8 @@ export default defineConfig(async () => {
       options: {
         markdownSection: {
           excludes: [
-            join('zh-CN', 'toc.md'),
-            join('zh-CN', 'index.md'),
+            join('notes', 'toc.md'),
+            join('notes', 'index.md'),
           ],
         },
       },
